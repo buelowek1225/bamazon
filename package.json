@@ -1,0 +1,22 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "**Project:** BAMAZON\r **Goal of this Project:** Create a Amazon-Like storefront using MySQL. The app should take in orders from customers and deplete stock from the store's inventory. Also try to track product sales across your store's departmens and then provide a summary of the hgihest-grossing departments in the store.",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buelowek1225/bamazon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/buelowek1225/bamazon/issues"
+  },
+  "homepage": "https://github.com/buelowek1225/bamazon#readme",
+  "dependencies": {
+    "mysql": "^2.17.1"
+  }
+}
