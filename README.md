@@ -25,10 +25,11 @@
 
 **Proof of functionality:**
     **Examples of User Flow Path:**
-        **Spotify:**
-            search: *node liri.js spotify-this-song despacito*
-            screen-shot of code: 
-            ![Screenshot of spotify song search.](images/ex.2_spotify_despacito.JPG)
+        **Ex 1 Order an item:**
+            search: *node bamazoneCustomer.js*
+            Gif of code:
+            <iframe src="https://giphy.com/embed/fXbZ1ZAP91gUDMm3KS" width="480" height="257" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/fXbZ1ZAP91gUDMm3KS">via GIPHY</a></p> 
+            <!-- ![Screenshot of spotify song search.](images/ex.2_spotify_despacito.JPG) -->
         **Bands in Town:**
             search: *node liri.js concert-this pink*
             screen-shot of code: 
