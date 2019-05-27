@@ -28,7 +28,7 @@
         **Ex 1 Order an item:**
             search: *node bamazoneCustomer.js*
             Gif of code:
-            ![Gif Example 1 of BAMAZON user search.](video/gif1.gif)
+            ![Gif Example 1 of BAMAZON user search.](videos/gif1.gif)
         **Bands in Town:**
             search: *node liri.js concert-this pink*
             screen-shot of code: 
