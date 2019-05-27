@@ -27,19 +27,12 @@
     **Examples of User Flow Path:**
         **Ex 1 Order an item:**
             search: *node bamazoneCustomer.js*
-            Gif of code:
+            Gif Example of Bamazon Customer ordering products in stock:
             ![Gif Example 1 of BAMAZON user search.](videos/gif1.gif)
         **Bands in Town:**
-            search: *node liri.js concert-this pink*
-            screen-shot of code: 
-            ![Screenshot of Bands in Town search.](images/ex.1_concert_pink.JPG)
-        **OMDB:**
-            search: *node liri.js movie-this Up*
-            screen-shot of code: 
-            ![Screenshot of OMDB search.](images/ex.3_movie_up.JPG)
-        **Text File Import Option:**
-        search: *node do-what-it-says *
-        screen-shot of code: 
-        ![Screenshot showing how to searching APIs with a text file.](images/ex.4_dowhatitsays.JPG)
+            search: *node bamazoneCustomer.js*
+            Gif Example of Bamazon Customer ordering products that are out of stock:
+            ![Gif Example 2 of BAMAZON user search.](videos/gif2.gif)
+       
 
 
