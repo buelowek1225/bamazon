@@ -1,6 +1,7 @@
 ## CLI BAMAZON APP
 
 **Project:** BAMAZON
+
 **Goal of this Project:** Create a Amazon-Like storefront using MySQL. The app takes in orders from customers and deplete stock from the store's inventory (bamazonCustomer.js). There is also a second 'Manager' view to view product inventory, view products that need to be resupplied and to increase supplies as needed (bamazonManger.js). 
 
 **Created by:** Ellen Buelow
