@@ -24,7 +24,7 @@ function managerOptions(){
             {
                 type: "list",
                 name: "managerOptions", 
-                message: "Please select the application you wish to run or choose to ecit the program.",
+                message: "Please select the application you wish to run or choose to exit the program.",
                 choices: [
                     "View Products for Sale",
                     "View Low Inventory",
@@ -62,7 +62,7 @@ function viewProducts() {
     console.log ("\n============================================= BAMAZON: Available Cookbooks for Purchase ===============================================\n")
     printProducts(res);
     console.log("\n\nWould you like to make another select?")
-    connection.end();
+    // connection.end();
     managerOptions();
     });
 }
@@ -79,8 +79,8 @@ function viewLowInventory() {
     console.log ("\n============================================= BAMAZON: Available Cookbooks for Purchase ===============================================\n")
     printProducts(res);
     console.log("\n\nWould you like to make another selection?")
-    connection.end();
-    // managerOptions();
+    // connection.end();
+    managerOptions();
     });
 }
 
@@ -112,21 +112,19 @@ function increaseInventory() {
             // console.log (res);
             // console.log("Thank you :)")
             increaseStock(response.id, response.inventoryNumberUpdate, res[0].stock_quantity);
-            managerOptions();
         })
     })
 }  
 
 function increaseStock(id, inventoryNumberUpdate, currentStock) {
     const inventoryUpdateString = `UPDATE bamazon.products SET stock_quantity=${currentStock}+${inventoryNumberUpdate} WHERE id=${id}`;
-    console.log(inventoryUpdateString);
+    // console.log(inventoryUpdateString);
     connection.query(inventoryUpdateString, function(err, res) {
         if (err) throw (err);
-    console.log (res);
+    console.log(`\n\nThank you for replenishing our stock! A total of ${inventoryNumberUpdate} books were added to our inventory associated with Cookbook Id-${id}.\n\n`);
+    managerOptions();
     })
 }
-
-
 
 // function Add new Products
 function addNewProducts(){
@@ -176,11 +174,6 @@ function addNewProducts(){
     })
 };
 
-function validateQuantity(stockNumber)
-{
-   var isValid = !_.isNaN(parseFloat(stockNumber));
-   return isValid || "Please enter a number.";
-}
 
 
 

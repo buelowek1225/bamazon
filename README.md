@@ -37,19 +37,19 @@
         **Ex 1 Manager View: Products for sale:**
             search: *node bamazonManager.js*
             Gif Example of Bamazon Manager viewing products for sale:
-            ![Gif Example 1 of BAMAZON user search.](videos/gif1.gif)
+            ![Gif Example 1 of BAMAZON user search.](videos/gif3.gif)
         **Ex 2 Manager View: Low Inventory view**
             search: *node bamazonManager.js*
             Gif Example of Bamazon Manger checking which products have low inventory (<5):
-            ![Gif Example 2 of BAMAZON user search.](videos/gif2.gif)
+            ![Gif Example 2 of BAMAZON user search.](videos/gif4.gif)
         **Ex 3 Manager View: Add to Inventory**
             search: *node bamazonManger.js*
             Gif Example of Bamazon Manager adding additional inventory to stock:
-            ![Gif Example 2 of BAMAZON user search.](videos/gif2.gif)
+            ![Gif Example 2 of BAMAZON user search.](videos/gif5.gif)
             **Ex 3 Manager View: Add New Product**
             search: *node bamazonManager.js*
             Gif Example of Bamazon Manager adding new product to stock (product name, department, price, quantity):
-            ![Gif Example 2 of BAMAZON user search.](videos/gif2.gif)
+            ![Gif Example 2 of BAMAZON user search.](videos/gif6.gif)
        
 
 
