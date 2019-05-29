@@ -1,11 +1,11 @@
 ## CLI BAMAZON APP
 
 **Project:** BAMAZON
-**Goal of this Project:** Create a Amazon-Like storefront using MySQL. The app should take in orders from customers and deplete stock from the store's inventory. Also try to track product sales across your store's departmens and then provide a summary of the hgihest-grossing departments in the store. 
+**Goal of this Project:** Create a Amazon-Like storefront using MySQL. The app takes in orders from customers and deplete stock from the store's inventory (bamazonCustomer.js). There is also a second 'Manager' view to view product inventory, view products that need to be resupplied and to increase supplies as needed (bamazonManger.js). 
 
 **Created by:** Ellen Buelow
 
-**Directions:** Do you need to stock up on home supplies? Look no further! Use this this app to order the items you need:
+**Directions:** Do you need to stock up on your favorite cook books? Look no further! Use this this app to new books for cooking inspiration. Below is a full list of books we sell:
 
     Below is a full list of the products we provide:
         - Simple - Yotam Ottolengi
@@ -24,14 +24,31 @@
         - Gran Cocina Latina: The Food of Latin America - Maricel E. Presilla
 
 **Proof of functionality:**
-    **Examples of User Flow Path:**
-        **Ex 1 Order an item:**
-            search: *node bamazoneCustomer.js*
+    **Examples of Customers Flow Path:**
+        **Ex 1 Customer View: Ordering an item:**
+            search: *node bamazonCustomer.js*
             Gif Example of Bamazon Customer ordering products in stock:
             ![Gif Example 1 of BAMAZON user search.](videos/gif1.gif)
-        **Bands in Town:**
-            search: *node bamazoneCustomer.js*
+        **Example 2  Customer View: Ordering an item (items are out of stock):**
+            search: *node bamazonCustomer.js*
             Gif Example of Bamazon Customer ordering products that are out of stock:
+            ![Gif Example 2 of BAMAZON user search.](videos/gif2.gif)
+    **Examples of Manager Flow Path:**
+        **Ex 1 Manager View: Products for sale:**
+            search: *node bamazonManager.js*
+            Gif Example of Bamazon Manager viewing products for sale:
+            ![Gif Example 1 of BAMAZON user search.](videos/gif1.gif)
+        **Ex 2 Manager View: Low Inventory view**
+            search: *node bamazonManager.js*
+            Gif Example of Bamazon Manger checking which products have low inventory (<5):
+            ![Gif Example 2 of BAMAZON user search.](videos/gif2.gif)
+        **Ex 3 Manager View: Add to Inventory**
+            search: *node bamazonManger.js*
+            Gif Example of Bamazon Manager adding additional inventory to stock:
+            ![Gif Example 2 of BAMAZON user search.](videos/gif2.gif)
+            **Ex 3 Manager View: Add New Product**
+            search: *node bamazonManager.js*
+            Gif Example of Bamazon Manager adding new product to stock (product name, department, price, quantity):
             ![Gif Example 2 of BAMAZON user search.](videos/gif2.gif)
        
 
