@@ -5,9 +5,9 @@
 
 **Created by:** Ellen Buelow
 
-**Directions:** Do you need to stock up on your favorite cook books? Look no further! Use this this app to new books for cooking inspiration. Below is a full list of books we sell:
+**Directions:** Do you need to stock up on your favorite cookbooks? Look no further! Use this this app to find new books for your cooking inspiration. Below is a full list of the books we sell:
 
-    Below is a full list of the products we provide:
+    Product List:
         - Simple - Yotam Ottolengi
         - Jerusalem - Yotam Ottolengi
         - Plenty - Yotam Ottolengi
