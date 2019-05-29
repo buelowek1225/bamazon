@@ -38,12 +38,12 @@ function orderitems(){
         .prompt([
             {
                 type: "input",
-                message: "Please type the 'Id' of the item you would like to purchase.",
+                message: "\nPlease type the 'Id' of the item you would like to purchase.",
                 name: "id"
             },
             {
                 type: "input",
-                message: "How many would you like to purchase?",
+                message: "\nHow many would you like to purchase?",
                 name: "number",
             },
         ])
@@ -86,19 +86,3 @@ function printCustTotal(productCost, productNumber) {
     const totalCost = productCost * productNumber
     console.log("Your current total for the item(s) selected is $" + totalCost + "! Thank you for your loyalty to BAMAZON!!!");
 }
-
-
-
-
-
-
-// another options
-
-//   function afterConnection() {
-//     // SELECT sends data back to your (res-response) we are filtering forbooks from the department "Ottolengi Cuisine"
-//     connection.query("SELECT * FROM products WHERE department_name='Ottlengi Cuisine'", function(err, res) {
-//       if (err) throw err;
-//       console.log(res);
-//       connection.end();
-//     });
-//   }
